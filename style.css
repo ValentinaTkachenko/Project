@@ -1,0 +1,95 @@
+body {
+	background-color: black;
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: darksalmon;
+	font-size: 36px;
+}
+.container {
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+h1 {
+	text-align: center;
+	margin: 0 auto;
+}
+.person__list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0px;
+}
+.person__item {
+	border: 1px solid hsl(24, 84%, 64%);
+	color: hsl(24, 84%, 64%);
+	list-style: none;
+	text-align: center;
+	width: 20%;
+	padding: 40px;
+	margin: 5px 20px;
+}
+.person__item:hover {
+	background-color: hsl(24, 84%, 64%);
+	color: black;
+}
+.invisible {
+	display: none;
+}
+.person__info {
+	margin: 100px;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+}
+table {
+	width: 100%;
+	max-width: 1200px;
+	font-family: 'Pathway Gothic One', sans-serif;
+	text-align: center;
+	border-collapse: separate;
+	border-spacing: 20px;
+	background: #ECE9E0;
+	color: #656665;
+	border: 16px solid #ECE9E0;
+	border-radius: 20px;
+
+	
+}
+.thead {
+	font-size: 36px;
+	padding: 10px;
+	text-align: center;
+}
+.tdBody {
+	background: #F5D7BF;
+	font-size: 20px;
+	padding: 35px;
+}
+.return {
+	align-self: center;
+	width: 100px;
+	height: 40px;
+	background-color: sandybrown;
+	border: none;
+	border-radius: 25px;
+	margin-top: 20px;
+	
+}
+.controls {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.control__btn__style {
+	width: 100px;
+	height: 40px;
+	background-color: sandybrown;
+	border: none;
+	border-radius: 25px;
+	
+}
